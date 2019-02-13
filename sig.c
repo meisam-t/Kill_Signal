@@ -11,7 +11,7 @@ void killsignal(pid_t);
 
 int main(int argc, char **argv) {
 	//printf(" Fork Pid is : %d  \n ",);
-	printf(" Fork Pid is : %d \n ",getpid());
+	printf(" current process pid is : %d \n ",getpid());
 	int arg1 = atoi(argv[1]);
 	
 	printf("Arg 1 %d  \n", arg1);
